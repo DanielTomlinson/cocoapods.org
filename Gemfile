@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.1.3'
 
-gem 'sinatra'
+gem 'sinatra', '>= 1.4.5'
 gem 'cocoapods-core'
 gem 'flounder', require: true
 gem 'rake', require: true
@@ -20,15 +20,15 @@ gem 'pygments.rb'
 gem 'github-markup'
 
 gem "nap", require: 'rest'
-gem "twitter"
+gem "twitter", ">= 5.14.0"
 
 gem 'link_header'
-gem 'sprockets'
+gem 'sprockets', '>= 2.12.3'
 
 gem 'httparty'
 
 group :development, :production do
   gem 'foreman'
-  gem 'thin'
+  gem 'thin', '>= 1.6.2'
   gem 'pry'
 end
