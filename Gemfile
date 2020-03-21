@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.1.3'
 
 gem 'sinatra'
-gem 'cocoapods-core'
+gem 'cocoapods-core', '>= 0.39.0'
 gem 'flounder', require: true
 gem 'rake', require: true
 gem 'dm-core', require: true
@@ -15,17 +15,17 @@ gem 'sass'
 gem 'slim', '< 2.0'
 gem 'yard', "~> 0.8.6.2"
 
-gem 'activesupport'
+gem 'activesupport', '>= 4.2.8'
 gem 'pygments.rb'
 gem 'github-markup'
 
 gem "nap", require: 'rest'
-gem "twitter"
+gem "twitter", ">= 6.0.0"
 
 gem 'link_header'
 gem 'sprockets'
 
-gem 'httparty'
+gem 'httparty', '>= 0.14.0'
 
 group :development, :production do
   gem 'foreman'
