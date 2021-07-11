@@ -5,9 +5,9 @@ gem 'sinatra'
 gem 'cocoapods-core'
 gem 'flounder', require: true
 gem 'rake', require: true
-gem 'dm-core', require: true
-gem 'dm-do-adapter', require: true
-gem 'dm-postgres-adapter', require: true
+gem 'dm-core', '>= 1.2.1', require: true
+gem 'dm-do-adapter', '>= 1.2.0', require: true
+gem 'dm-postgres-adapter', '>= 1.2.0', require: true
 
 gem 'redcarpet', github: 'vmg/redcarpet'
 gem 'sass'
@@ -20,7 +20,7 @@ gem 'pygments.rb'
 gem 'github-markup'
 
 gem "nap", require: 'rest'
-gem "twitter"
+gem "twitter", ">= 5.14.0"
 
 gem 'link_header'
 gem 'sprockets'
